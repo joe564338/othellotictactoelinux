@@ -67,7 +67,7 @@ public:
 private:
 	friend class OthelloView;
 
-	char mBoard[BOARD_SIZE][BOARD_SIZE];
+	int mBoard[BOARD_SIZE][BOARD_SIZE];
    static char mWeights[BOARD_SIZE][BOARD_SIZE];
    int mPassCount;
 };

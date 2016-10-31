@@ -35,7 +35,7 @@ public:
 			&& mBoard[2][0] != EMPTY) || 
 			((mBoard[0][0] != EMPTY) && (mBoard[0][1] != EMPTY) && 
 			(mBoard[0][2] != EMPTY) && (mBoard[1][0] != EMPTY) &&
-			(mBohttps://github.com/joe564338/Othello-tictactoe.gitard[1][1] != EMPTY) && (mBoard[1][2] != EMPTY) && 
+			(mBoard[1][1] != EMPTY) && (mBoard[1][2] != EMPTY) && 
 			(mBoard[2][0] != EMPTY) && (mBoard[2][1] != EMPTY) && 
 			(mBoard[2][2] != EMPTY)));
 	}
